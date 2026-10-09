@@ -1,0 +1,8 @@
+{
+  "uuid": "vancollect@sweetjeebus.github.io",
+  "name": "VanCollect",
+  "description": "Shows your next garbage / green bin pickup (ReCollect, e.g. City of Vancouver) in the top bar.",
+  "shell-version": ["46"],
+  "settings-schema": "org.gnome.shell.extensions.garbage-day",
+  "version": 1
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.garbage-day" path="/org/gnome/shell/extensions/garbage-day/">
+    <key name="area" type="s">
+      <default>'Vancouver'</default>
+      <summary>ReCollect area name used for address lookup</summary>
+    </key>
+    <key name="place-id" type="s">
+      <default>''</default>
+      <summary>ReCollect place ID</summary>
+    </key>
+    <key name="service-id" type="i">
+      <default>193</default>
+      <summary>ReCollect service ID</summary>
+    </key>
+    <key name="address-name" type="s">
+      <default>''</default>
+      <summary>Display name of the chosen address</summary>
+    </key>
+    <key name="reminder-enabled" type="b">
+      <default>true</default>
+      <summary>Send a notification the evening before a pickup</summary>
+    </key>
+    <key name="reminder-hour" type="i">
+      <range min="0" max="23"/>
+      <default>18</default>
+      <summary>Hour (24h) at which the evening-before reminder fires</summary>
+    </key>
+    <key name="last-notified" type="s">
+      <default>''</default>
+      <summary>Pickup day (YYYY-MM-DD) we last sent a reminder for</summary>
+    </key>
+    <key name="cache" type="s">
+      <default>''</default>
+      <summary>Last successful schedule (JSON), used while offline</summary>
+    </key>
+  </schema>
+</schemalist>
